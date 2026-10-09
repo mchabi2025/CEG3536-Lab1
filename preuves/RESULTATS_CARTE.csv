@@ -1,0 +1,11 @@
+﻿Essai;Procedure;Resultat attendu;Resultat observe sur carte;Verdict;Preuve;Date
+T1;Reset, boutons relaches;Etat 0, rouge seule <100 ms;A mesurer;NON TESTE SUR CARTE;;
+T2;4 appuis User;Verte, rouge, bleue, rouge;A mesurer;NON TESTE SUR CARTE;;
+T3;20 appuis puis maintien 2 s;Delta compteur +20 puis +1;A mesurer;NON TESTE SUR CARTE;;
+T4;IDR relache/appuye sur PC13 PB2 PB5;Polarites et PUPDR justifies;A mesurer;NON TESTE SUR CARTE;;
+T5;E-Stop en avant et en arriere;"ISR securise sorties; etat 3 au pas suivant";A mesurer;NON TESTE SUR CARTE;;
+T6;DWT en urgence sans breakpoint;250 ms par demi-periode et 500 ms par periode, +/-10%;A mesurer;NON TESTE SUR CARTE;;
+T7;Touch E-Stop maintenu puis relache;"Refus maintenu; nouvel appui apres relachement acquitte";A mesurer;NON TESTE SUR CARTE;;
+T8;User pendant urgence;Etat 3 inchange;A mesurer;NON TESTE SUR CARTE;;
+T9;Deux appuis Touch hors urgence;Autorisation 0-1-0, extinction ~100 ms;A mesurer;NON TESTE SUR CARTE;;
+T10;Appuis simultanes et E-Stop pendant transition;"Jamais deux DEL; pas de sortie urgence sans acquittement";A mesurer;NON TESTE SUR CARTE;;
